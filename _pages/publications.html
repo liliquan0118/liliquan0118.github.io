@@ -32,5 +32,14 @@ author_profile: true
 <!--   {% endfor %} -->
 <!-- {% endif %} -->
 
+<h2>2025</h2>
+<hr />
 
+{% for post in site.publications reversed %}
+  {% if post.year == "2025" %}
+    <div class="publication-entry">
+      <p><strong>{{ post.number }} ({{ post.year }})</strong> {{ post.authors }}. <em>{{ post.title }}</em> <br> In {{ post.journal }} <br> [<a href="{{ post.url }}">Paper TBD</a>]</p>
+    </div>
+  {% endif %}
+{% endfor %}
 
