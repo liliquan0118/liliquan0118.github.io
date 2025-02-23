@@ -12,10 +12,10 @@ redirect_from:
 Education
 ======
 * Ph.D in College of Intelligence and
-Computing, Tianjin University, 2025 (expected)
+Computing, Tianjin University, 2021-2025 (expected)
 * M.S. in College of Intelligence and
-Computing, Tianjin University, 2021
-* B.S. in Tianjin University of Finance and Economics, 2018
+Computing, Tianjin University, 2018-2021
+* B.S. in Tianjin University of Finance and Economics, 2014-2018
 
   
   
