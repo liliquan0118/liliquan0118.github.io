@@ -13,5 +13,4 @@ I am very fortunate to be advised by [Prof. Xiaohong Li](https://cic.tju.edu.cn/
 
 You can find my CV here: [Lili Quan's Curriculum Vitae](../assets/Curriculum_Vitae.pdf).
 
-[Email](mailto:quanlili@tju.edu.cn) / [Github](https://github.com/liliquan0118)
 
