@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Lili Quan Resume"
+title                    : "Lili Quan's Homepage"
 title_separator          : "-"
 name                     : &name "Lili Quan"
 description              : &description "PhD in Tianjin University"
