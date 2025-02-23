@@ -36,33 +36,29 @@ author_profile: true
 <hr />
     <div class="publication-entry">
       <p><strong>1. ( ICSE 2025)</strong> <strong>Lili Quan</strong>, Tianlin Li, Xiaofei Xie, Zhenpeng Chen, Xiaofei Xie, Sen Chen, Lingxiao Jiang, Xiaohong Li. <strong>"Dissecting Global Search: A Simple Yet Effective Method to Boost Individual Discrimination Testing and Repair"</strong>.<br> In Proceedings of the 47th IEEE/ACM International Conference on Software Engineering, 2025, Accepted. <br></p>
+
+      <p><strong>2. ( WWW 2025)</strong> <strong>Lili Quan</strong>, Xiaofei Xie, Qianyu Guo, Lingxiao Jiang, Sen Chen, Junjie Wang, and Xiaohong Li. <strong>"TensorJSFuzz: Effective Testing of Web-Based Deep Learning Frameworks via Input-Constraint Extraction"</strong>.<br> In Proceedings of the Web Conference, Accepted. <br></p>
+      
     </div>
+<h2>2022</h2>
+<hr />
 
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
- {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
-
-{% for post in site.publications reversed %}
-<!--   {% if post.year == "2025" %} -->
     <div class="publication-entry">
-      <p><strong>{{ post.number }} ({{ post.year }})</strong> {{ post.authors }}. <em>{{ post.title }}</em> <br> In {{ post.journal }} <br> [<a href="{{ post.url }}">Paper TBD</a>]</p>
+      <p><strong>1. ( ASE 2022)</strong> <strong>Lili Quan</strong>, Qianyu Guo, Xiaofei Xie, Sen Chen, Xiaohong Li, Yang Liu. <strong>"Towards understanding the faults of javascript-based deep learning systems"</strong>.<br> In Proceedings of the 37th IEEE/ACM International Conference on Automated Software Engineering. <br></p>
+      
     </div>
+
+<h2>2020</h2>
+    <div class="publication-entry">
+      <p><strong>1. ( ASE 2020)</strong> <strong>Lili Quan</strong>, Qianyu Guo, Hongxu Chen, Xiaofei Xie, Xiaohong Li, Yang Liu, Jing Hu. <strong>"SADT: syntax-aware differential testing of certificate validation in SSL/TLS implementations"</strong>.<br> In Proceedings of the 35th IEEE/ACM International Conference on Automated Software Engineering. <br></p>
+    </div>
+<hr />
+
+<!-- {% for post in site.publications reversed %} -->
+<!--   {% if post.year == "2025" %} -->
+<!--     <div class="publication-entry"> -->
+<!--       <p><strong>{{ post.number }} ({{ post.year }})</strong> {{ post.authors }}. <em>{{ post.title }}</em> <br> In {{ post.journal }} <br> [<a href="{{ post.url }}">Paper TBD</a>]</p> -->
+<!--     </div> -->
 <!--   {% endif %} -->
-{% endfor %}
+<!-- {% endfor %} -->
 
