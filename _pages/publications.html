@@ -35,8 +35,24 @@ author_profile: true
 <h2>2025</h2>
 <hr />
     <div class="publication-entry">
-      <p><strong>1. ( ICSE 2025)</strong> <strong>Lili Quan</strong>, Tianlin Li, Xiaofei Xie, Zhenpeng Chen, Xiaofei Xie, Sen Chen, Lingxiao Jiang, Xiaohong Li. <strong>"Dissecting Global Search: A Simple Yet Effective Method to Boost Individual Discrimination Testing and Repair"</strong>strong>.<br> In Proceedings of the 47th IEEE/ACM International Conference on Software Engineering, 2025, Accepted. <br></p>
+      <p><strong>1. ( ICSE 2025)</strong> <strong>Lili Quan</strong>, Tianlin Li, Xiaofei Xie, Zhenpeng Chen, Xiaofei Xie, Sen Chen, Lingxiao Jiang, Xiaohong Li. <strong>"Dissecting Global Search: A Simple Yet Effective Method to Boost Individual Discrimination Testing and Repair"</strong>.<br> In Proceedings of the 47th IEEE/ACM International Conference on Software Engineering, 2025, Accepted. <br></p>
     </div>
+
+{% if site.publication_category %}
+  {% for category in site.publication_category  %}
+    {% assign title_shown = false %}
+    {% for post in site.publications reversed %}
+      {% if post.category != category[0] %}
+        {% continue %}
+      {% endif %}
+      {% unless title_shown %}
+        <h2>{{ category[1].title }}</h2><hr />
+        {% assign title_shown = true %}
+      {% endunless %}
+    {% endfor %}
+  {% endfor %}
+{% endif %}
+
 {% for post in site.publications reversed %}
 <!--   {% if post.year == "2025" %} -->
     <div class="publication-entry">
