@@ -9,6 +9,9 @@ redirect_from:
 
 {% include base_path %}
 
+You can find my CV here: [Curriculum Vitae](../assets/Curriculum_Vitae.pdf).
+
+
 Education
 ======
 * Ph.D in College of Intelligence and
