@@ -90,8 +90,8 @@
   }
 
   img {
-    width: 120px;           // ✅ 明确指定宽度
-    height: 120px;          // ✅ 明确指定高度（可选）
+    width: 175px;           // ✅ 明确指定宽度
+    height: 175px;          // ✅ 明确指定高度（可选）
     //border-radius: 50%;     // 圆形头像
     object-fit: cover;      // 防止变形裁剪
     @include breakpoint($large) {
