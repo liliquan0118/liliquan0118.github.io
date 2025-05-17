@@ -90,17 +90,23 @@
   }
 
   img {
-    width: 175px;           // ✅ 明确指定宽度
+    width: 200px;           // ✅ 明确指定宽度
     height: 175px;          // ✅ 明确指定高度（可选）
     //border-radius: 50%;     // 圆形头像
     object-fit: cover;      // 防止变形裁剪
-    @include breakpoint($large) {
-      padding: 5px;
-      border: 1px solid var(--global-border-color);
-    }
+    // @include breakpoint($large) {
+    //   padding: 5px;
+    //   border: 1px solid var(--global-border-color);
+    // }
   }
 }
-
+// 移动端适配样式（小屏）
+@media screen and (max-width: 768px) {
+  .author__avatar img {
+    width: 70px;
+    height: 100px;
+  }
+}
 .author__content {
   display: table-cell;
   vertical-align: top;
