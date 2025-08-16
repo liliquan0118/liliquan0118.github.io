@@ -7,36 +7,36 @@
  * Note that the files are processed in the order they are imported, so they are partly
    sorted by the dependencies. Also, the first two lines of the file are required by Jekyll.
  */
-@import "jekyll-theme-primer";
-// @import 
-//     "vendor/breakpoint/breakpoint",
 
-//     "themes",
-//     "theme/{{ site.site_theme | default: 'default' }}",
+@import 
+    "vendor/breakpoint/breakpoint",
 
-//     "include/mixins",
-//     "vendor/susy/susy",
+    "themes",
+    "theme/{{ site.site_theme | default: 'default' }}",
 
-//     "layout/reset",
-//     "layout/base",
+    "include/mixins",
+    "vendor/susy/susy",
 
-//     "include/utilities",
-//     "layout/tables",
-//     "layout/buttons",
-//     "layout/notices",
-//     "layout/masthead",
-//     "layout/navigation",
-//     "layout/footer",
-//     "syntax",
+    "layout/reset",
+    "layout/base",
 
-//     "layout/forms",
+    "include/utilities",
+    "layout/tables",
+    "layout/buttons",
+    "layout/notices",
+    "layout/masthead",
+    "layout/navigation",
+    "layout/footer",
+    "syntax",
 
-//     "layout/page",
-//     "layout/archive",
-//     "layout/sidebar",
+    "layout/forms",
+
+    "layout/page",
+    "layout/archive",
+    "layout/sidebar",
     
-//     "vendor/font-awesome/fontawesome",
-//     "vendor/font-awesome/solid",
-//     "vendor/font-awesome/brands",
-//     "vendor/magnific-popup/magnific-popup"
-// ;
+    "vendor/font-awesome/fontawesome",
+    "vendor/font-awesome/solid",
+    "vendor/font-awesome/brands",
+    "vendor/magnific-popup/magnific-popup"
+;
