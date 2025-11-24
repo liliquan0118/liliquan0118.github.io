@@ -23,7 +23,7 @@ theme: null
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile2.jpg"
+  avatar           : "profile3.jpg"
   name             : "Lili Quan (权丽丽)"
   pronouns         : # example: "she/her"  
   bio              : "PhD in Tianjin University"
