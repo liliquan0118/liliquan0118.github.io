@@ -25,4 +25,6 @@ Computing, Tianjin University, 2018-2021
 Activities
 ======
 - PC member of the 1st International Workshop on Large Language Model Supply Chain Analysis (LLMSC 2025)
+- PC member of the International World Wide Web Conference 2025 (WWW 2025)
+- Junior PC member of Conference on Mining Software Repositories (MSR 2026)
 - Reviewer of the Journal of Software: Evolution and Process (JSME 2025)
