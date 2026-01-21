@@ -7,9 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I'm a Ph.D. candidate from **Tianjin University**. My research focuses on AI security and software testing including DL framework testing, DL model testing, and protocol fuzzing.
-
-I am very fortunate to be advised by [**Prof. Xiaohong Li**](https://cic.tju.edu.cn/faculty/lxh/index.html) of Tianjin University and [**Prof. Xiaofei Xie**](https://xiaofeixie.bitbucket.io/) of Singapore Management University (SMU).
+I received my Ph.D. in Computer Science and Technology from Tianjin University in November 2025, under the supervision of [**Prof. Xiaohong Li**](https://cic.tju.edu.cn/faculty/lxh/index.html) . My research focuses on AI security and software testing, including deep learning framework testing, deep learning model testing, and protocol fuzzing. Since January 2026, I have been working as a **postdoctoral** researcher at **Singapore Management University** with [**Prof. Xiaofei Xie**](https://xiaofeixie.bitbucket.io/), where my current research explores the reliability, robustness, and security of AI-enabled systems.
 
 You can find my CV here: [Lili Quan's Curriculum Vitae](../assets/Curriculum_Vitae.pdf).
 
