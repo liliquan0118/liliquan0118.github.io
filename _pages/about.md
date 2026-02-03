@@ -15,7 +15,7 @@ You can find my CV here: [Lili Quan's Curriculum Vitae](../assets/Curriculum_Vit
 Education
 ======
 * Ph.D in College of Intelligence and
-Computing, Tianjin University, 2021-2025 (expected)
+Computing, Tianjin University, 2021-2025
 * M.S. in College of Intelligence and
 Computing, Tianjin University, 2018-2021
 * B.S. in Tianjin University of Finance and Economics, 2014-2018
