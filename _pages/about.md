@@ -27,3 +27,4 @@ Activities
 - PC member of the International World Wide Web Conference 2025 (WWW 2025)
 - Junior PC member of Conference on Mining Software Repositories (MSR 2026)
 - Reviewer of the Journal of Software: Evolution and Process (JSME 2025)
+- Reviewer of Transactions on Software Engineering (TSE 2026)
